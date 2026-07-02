@@ -3,3 +3,142 @@ body {
     --secondary: #2b3538;
     --accent: #66AD8E;
 }
+/* Anton: content sections start */
+
+.content-section {
+  padding: 80px 24px;
+  text-align: center;
+}
+
+.content-container {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.section-eyebrow {
+  margin-bottom: 8px;
+  color: #007642;
+  font-size: 0.85rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.content-section h2 {
+  margin: 0;
+  color: #1f2933;
+  font-size: clamp(2rem, 4vw, 3rem);
+}
+
+.section-intro {
+  max-width: 620px;
+  margin: 16px auto 0;
+  color: #52606d;
+  line-height: 1.6;
+}
+
+.highlights-section {
+  background-color: #e8f3ed;
+}
+
+.highlight-card {
+  max-width: 720px;
+  margin: 36px auto 0;
+  padding: 56px 28px;
+  border-radius: 16px;
+  background-color: #ffffff;
+  box-shadow: 0 10px 30px rgba(0, 118, 66, 0.12);
+}
+
+.highlight-label {
+  margin: 0 0 12px;
+  color: #007642;
+  font-size: 1.25rem;
+  font-weight: 700;
+}
+
+.highlight-card p:last-child {
+  margin: 0;
+  color: #52606d;
+  line-height: 1.6;
+}
+
+.news-section {
+  background-color: #f5f7f8;
+}
+
+.news-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+  margin-top: 36px;
+}
+
+.news-card {
+  display: flex;
+  min-height: 240px;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 28px;
+  border-radius: 16px;
+  background-color: #ffffff;
+  text-align: left;
+  box-shadow: 0 8px 24px rgba(31, 41, 51, 0.08);
+}
+
+.news-card h3 {
+  margin: 0;
+  color: #1f2933;
+  font-size: 1.35rem;
+}
+
+.news-card p {
+  margin: 16px 0 24px;
+  color: #52606d;
+  line-height: 1.6;
+}
+
+.news-card span {
+  margin-top: auto;
+  color: #007642;
+  font-weight: 700;
+}
+
+.sponsors-section {
+  background-color: #ffffff;
+}
+
+.sponsor-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 16px;
+  margin: 36px 0 0;
+  padding: 0;
+  list-style: none;
+}
+
+.sponsor-list li {
+  min-width: 150px;
+  padding: 18px 24px;
+  border: 1px solid #d9e2e8;
+  border-radius: 12px;
+  color: #1f2933;
+  font-weight: 700;
+}
+
+@media (max-width: 760px) {
+  .content-section {
+    padding: 64px 20px;
+  }
+
+  .news-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .news-card {
+    min-height: auto;
+  }
+}
+
+/* Anton: content sections end */
