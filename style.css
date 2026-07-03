@@ -175,6 +175,7 @@ h2 {
   align-items: center;
   gap: 10px;
   position: relative;
+  justify-content: space-between;
 }
 
 .matches .card>div {
@@ -183,6 +184,11 @@ h2 {
   align-items: center;
   gap: 10px;
   height: 100%;
+}
+
+.matches .team-name {
+  color: #1f2933;
+  font-size: 0.8rem;
 }
 
 .matches .card>div>figure {
@@ -206,7 +212,7 @@ h2 {
 .matches .time {
   position: absolute;
   width: 100%;
-  bottom: -10px;
+  top: -10px;
   text-align: center;
   left: 0;
   display: flex;
