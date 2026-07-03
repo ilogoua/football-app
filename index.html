@@ -2,121 +2,194 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="normalize.css" />
-    <link rel="stylesheet" href="style.css" />
-    <title>Football App</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="normalize.css" />
+  <link rel="stylesheet" href="style.css" />
+  <title>Football App</title>
 </head>
 
 <body>
-    <header class="page-header">
-        <img src="images/header.jpg" class="header-image" alt="Header image" />
-        <div class="header-top">
-            <div class="inner container">
-                <img src="https://placehold.co/400x200" alt="Logo" class="logo" />
-                <nav>
-                    <a href="#home">Home</a>
-                    <a href="#matches">Matches</a>
-                    <a href="#teams">Teams</a>
-                    <a href="#news">News</a>
-                    <a href="#sponsors">Sponsors</a>
-                </nav>
+  <header class="page-header">
+    <img src="images/header.jpg" class="header-image" alt="Header image" />
+    <div class="header-top">
+      <div class="inner container">
+        <img src="https://placehold.co/400x200" alt="Logo" class="logo" />
+        <nav>
+          <a href="#home">Home</a>
+          <a href="#matches">Matches</a>
+          <a href="#teams">Teams</a>
+          <a href="#news">News</a>
+          <a href="#sponsors">Sponsors</a>
+        </nav>
+      </div>
+    </div>
+    <div class="hero container">
+      <h1>All football<br>One place</h1>
+    </div>
+  </header>
+
+  <section class="current container">
+    <div class="current-inner">
+      <div>
+        <div>Team 1</div>
+        <div class="score">3:1</div>
+        <div>Team 2</div>
+      </div>
+      <aside>45:06 / 90:00</aside>
+    </div>
+  </section>
+
+  <section class="matches">
+    <div class="container">
+      <h2>Next matches</h2>
+      <section>
+        <article class="card">
+          <div>
+            <figure>
+              <img src="./images/Alemannia_Aachen_2010.svg.webp" alt="Alemannia Aachen logo" />
+            </figure>
+            <aside class="team-name">Alemannia Aachen</aside>
+          </div>
+          <span class="bubble">VS</span>
+          <div>
+            <figure>
+              <img src="./images/FC_Erzgebirge_Aue_logo.svg.webp" alt="FC Erzgebirge Aue logo" />
+            </figure>
+            <aside class="team-name">FC Erzgebirge Aue</aside>
+          </div>
+          <aside class="time">
+            <div class="bubble">
+              25.06.2024 18:00
             </div>
-        </div>
-        <div class="hero container">
-            <h1>All football<br>One place</h1>
-        </div>
-    </header>
+          </aside>
+        </article>
 
-    <section class="current container">
-        <div class="current-inner">
-            <div>
-                <div>Team 1</div>
-                <div class="score">3:1</div>
-                <div>Team 2</div>
+        <article class="card">
+          <div>
+            <figure>
+              <img src="./images/Logo_of_Rot-Weiss_Essen.svg.webp" alt="Rot-Weiss Essen logo" />
+            </figure>
+            <aside class="team-name">Rot-Weiss Essen</aside>
+          </div>
+          <span class="bubble">VS</span>
+          <div>
+            <figure>
+              <img src="./images/Msv_duisburg(new).svg.webp" alt="MSV Duisburg logo" />
+            </figure>
+            <aside class="team-name">MSV Duisburg</aside>
+          </div>
+          <aside class="time">
+            <div class="bubble">
+              25.06.2024 18:00
             </div>
-            <aside>45:06 / 90:00</aside>
-        </div>
-    </section>
+          </aside>
+        </article>
 
-<!-- Anton: content sections start -->
-<section class="content-section highlights-section" id="highlights">
-  <div class="content-container">
-    <p class="section-eyebrow">Matchday</p>
-    <h2>Match Highlights</h2>
-    <p class="section-intro">Relive the best moments from the pitch.</p>
+        <article class="card">
+          <div>
+            <figure>
+              <img src="./images/FC_Energie_Cottbus_crest.svg.webp" alt="FC Energie Cottbus logo" />
+            </figure>
+            <aside class="team-name">FC Energie Cottbus</aside>
+          </div>
+          <span class="bubble">VS</span>
+          <div>
+            <figure>
+              <img src="./images/TSV_Havelse_logo.svg.webp" alt="TSV Havelse logo" />
+            </figure>
+            <aside class="team-name">TSV Havelse</aside>
+          </div>
+          <aside class="time">
+            <div class="bubble">
+              25.06.2024 18:00
+            </div>
+          </aside>
 
-    <article class="highlight-card">
-      <p class="highlight-label">Highlights coming soon</p>
-      <p>Match recaps, goals and the best moments in one place.</p>
-    </article>
-  </div>
-</section>
+        </article>
+      </section>
+    </div>
+  </section>
 
-<section class="content-section news-section" id="news">
-  <div class="content-container">
-    <p class="section-eyebrow">Club updates</p>
-    <h2>Latest News</h2>
-    <p class="section-intro">Fresh stories from the pitch.</p>
+  <!-- Anton: content sections start -->
+  <section class="content-section highlights-section" id="highlights">
+    <div class="content-container">
+      <p class="section-eyebrow">Matchday</p>
+      <h2>Match Highlights</h2>
+      <p class="section-intro">Relive the best moments from the pitch.</p>
 
-    <div class="news-grid">
-      <article class="news-card">
-        <h3>Matchday Recap</h3>
-        <p>A thrilling 3–1 win under the lights.</p>
-        <span>Read more →</span>
-      </article>
-
-      <article class="news-card">
-        <h3>Squad Update</h3>
-        <p>New faces, new energy for the season.</p>
-        <span>Read more →</span>
-      </article>
-
-      <article class="news-card">
-        <h3>Tickets on Sale</h3>
-        <p>Secure your seat for the next home game.</p>
-        <span>Read more →</span>
+      <article class="highlight-card">
+        <p class="highlight-label">Highlights coming soon</p>
+        <p>Match recaps, goals and the best moments in one place.</p>
       </article>
     </div>
-  </div>
-</section>
+  </section>
 
-<section class="content-section sponsors-section" id="sponsors">
-  <div class="content-container">
-    <p class="section-eyebrow">Partners</p>
-    <h2>Our Sponsors</h2>
-    <p class="section-intro">
-      Proudly supported by our partners.
-    </p>
+  <section class="content-section news-section" id="news">
+    <div class="content-container">
+      <p class="section-eyebrow">Club updates</p>
+      <h2>Latest News</h2>
+      <p class="section-intro">Fresh stories from the pitch.</p>
 
-    <ul class="sponsor-list">
-      <li>Northstar</li>
-      <li>MatchPoint</li>
-      <li>Greenline</li>
-      <li>SportHaus</li>
-    </ul>
-  </div>
-</section>
+      <div class="news-grid">
+        <article class="news-card">
+          <h3>Matchday Recap</h3>
+          <p>A thrilling 3–1 win under the lights.</p>
+          <span>Read more →</span>
+        </article>
 
-<footer class="site-footer">
-  <div class="footer-inner container">
-    <div class="footer-brand">
-      <p class="footer-title">All Football</p>
-      <p class="footer-text">Your matchday, all in one place.</p>
+        <article class="news-card">
+          <h3>Squad Update</h3>
+          <p>New faces, new energy for the season.</p>
+          <span>Read more →</span>
+        </article>
+
+        <article class="news-card">
+          <h3>Tickets on Sale</h3>
+          <p>Secure your seat for the next home game.</p>
+          <span>Read more →</span>
+        </article>
+      </div>
     </div>
+  </section>
 
-    <nav class="footer-nav" aria-label="Footer navigation">
-      <a href="#home">Home</a>
-      <a href="#matches">Matches</a>
-      <a href="#teams">Teams</a>
-      <a href="#news">News</a>
-      <a href="#sponsors">Sponsors</a>
-    </nav>
+  <section class="content-section sponsors-section" id="sponsors">
+    <div class="content-container">
+      <p class="section-eyebrow">Partners</p>
+      <h2>Our Sponsors</h2>
+      <p class="section-intro">
+        Proudly supported by our partners.
+      </p>
 
-    <p class="footer-copy">© 2026 All Football · Anton &amp; Philipp</p>
-  </div>
-</footer>
+      <ul class="sponsor-list">
+        <li>Northstar</li>
+        <li>MatchPoint</li>
+        <li>Greenline</li>
+        <li>SportHaus</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Anton: content sections end -->
+
+  <footer class="site-footer">
+    <div class="footer-inner container">
+      <div class="footer-brand">
+        <p class="footer-title">All Football</p>
+        <p class="footer-text">Your matchday, all in one place.</p>
+      </div>
+
+      <nav class="footer-nav" aria-label="Footer navigation">
+        <a href="#home">Home</a>
+        <a href="#matches">Matches</a>
+        <a href="#teams">Teams</a>
+        <a href="#news">News</a>
+        <a href="#sponsors">Sponsors</a>
+      </nav>
+
+      <p class="footer-copy">© 2026 All Football · Anton &amp; Philipp</p>
+    </div>
+  </footer>
 </body>
 
 </html>
